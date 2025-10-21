@@ -3,12 +3,12 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from convolutional import Convoultional
-from reshape import Reshape
+from src.convolutional import Convoultional
+from src.reshape import Reshape
 
-from NN.activations import Sigmoid
-from NN.dense_layer import Dense
-from NN.losses import binary_cross_entropy, binary_cross_entropy_prime
+from activations import Sigmoid
+from dense_layer import Dense
+from losses import binary_cross_entropy, binary_cross_entropy_prime
 from sklearn.datasets import fetch_openml
 
 

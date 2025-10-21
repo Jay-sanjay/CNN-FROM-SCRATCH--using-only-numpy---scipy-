@@ -1,4 +1,4 @@
-from layer import Layer
+from src.layer import Layer
 import numpy as np
 
 # This class just applies the act. function ---> Y = f(X)
