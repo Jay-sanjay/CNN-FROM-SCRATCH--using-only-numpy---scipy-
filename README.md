@@ -4,11 +4,27 @@ This project implements a Convolutional Neural Network (CNN) from scratch using 
 
 ## Project Structure
 
+The project is organized in the following directory structure:
+```
+CNN/
+├── README.md
+├── /src
+│   ├── layer.py
+│   ├── convolutional.py
+│   ├── activation_layer.py
+│   ├── activations.py
+│   ├── dense_layer.py
+│   ├── reshape.py
+│   ├── losses.py
+|   ├── test1.py
+```
+
+Each file serves a specific purpose in the CNN implementation:
 - `layer.py`: Base layer class definition
-- `convolutional.py`: Implementation of convolutional layer
+- `convolutional.py`: Convolutional layer implementation
 - `activation_layer.py`: Base class for activation layers
 - `activations.py`: Implementation of activation functions (Sigmoid, Tanh)
-- `dense_layer.py`: Implementation of fully connected layer
+- `dense_layer.py`: Fully connected layer implementation
 - `reshape.py`: Layer for reshaping data between convolution and dense layers
 - `losses.py`: Implementation of loss functions (MSE, Binary Cross Entropy)
 - `test1.py`: Main script demonstrating CNN usage on MNIST
@@ -97,7 +113,7 @@ pip install scikit-learn
 
 ```bash
 # Navigate to the project directory
-cd /path/to/CNN/
+cd /home/jay-sanjay/Documents/Learnings\ \(from-Mac\)/Learnings/Str/CNN/
 
 # Run the test script
 python test1.py
